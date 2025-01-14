@@ -15,7 +15,7 @@ public class Main {
             System.out.println("\n=== Student Management System ===");
             System.out.println("1. Add Student");
             System.out.println("2. Exit");
-            System.out.print("Enter your choice: ");
+            System.out.print("Enter your choice:");
             int choice = scanner.nextInt();
 
             switch (choice) {
