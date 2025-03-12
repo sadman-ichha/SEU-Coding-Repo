@@ -5,8 +5,13 @@ int main()
 {
     // Traverse Array using loop
     int orange[7] = {3, 4, 12, 7, 8, 50};
+
+    // Size of Array
+    int arrLength = sizeof(orange) / sizeof(orange[0]); // Divide total size / size of one element
+    cout << "Array Length: " << arrLength;
+
     cout<<endl<<"array element: ";
-    for (int i = 0; i < 7; i += 1)
+    for (int i = 0; i < arrLength; i += 1)
     {
         cout << orange[i];
         // To ensure that a comma (",") is printed after each element except the last one
@@ -16,10 +21,10 @@ int main()
         }
     }
 
-    // Update Oparation && printing 
+    // Update Oparation && printing
     orange[2] = 13;
     cout<<endl<<"Update array element: ";
-    for (int i = 0; i < 7; i += 1)
+    for (int i = 0; i < arrLength; i += 1)
     {
         cout<< orange[i];
         if (i != 6)
@@ -35,7 +40,7 @@ int main()
     int findNumber;
     bool isFound = false;
     cin >> findNumber;
-    for (int i = 0; i < 7; i++)
+    for (int i = 0; i < arrLength; i++)
     {
         if (findNumber == orange[i])
         {
@@ -57,7 +62,7 @@ int main()
         cout << "Insert number at index [" << i << "]: ";
         cin >> apple[i];
     }
-    cout << "\nYou entered: ";
+    cout << "\nYou enter the number: ";
     for (int i = 0; i < 5; i++) {
         cout << apple[i] << " ";
     }
