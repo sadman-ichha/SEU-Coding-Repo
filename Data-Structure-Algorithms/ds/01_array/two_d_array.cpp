@@ -23,8 +23,8 @@ int main() {
         }
     }
 
-
-    int orange[3][3]; //Row 3 coloumn 3 (2x3 array)
+    //Row 3 coloumn 3 (2x3 array)
+    int orange[3][3]; 
     cout << "\nPlease input your 2D Array (2 rows, 3 columns): "<<endl;
     for (int i = 0; i < 3; i+=1) // (i) represents the row 
     {
