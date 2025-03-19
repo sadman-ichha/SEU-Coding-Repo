@@ -15,9 +15,9 @@ public:
     };
 
     // Parameterized Constructor 
-    Teacher(string n, string d) {
-        name = n;
-        department = d;
+    Teacher(string name, string department) {
+        this->name = name;
+        this->department = department;
     }
 
     void getInfo() {
