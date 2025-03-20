@@ -2,7 +2,7 @@
 using namespace std;
 
 
-int linearSearch(int arr[],int arrLength,int target){
+int linearSearch(const int arr[],int arrLength,int target){
     bool isFound = false;
     int steps=0;
     for (int i = 0; i < arrLength; i++)
@@ -31,7 +31,7 @@ int main()
     cin>>target;
     int result =  linearSearch(arr,arrLength,target);
     if(result != -1)
-     cout<<" found index at"<<result;
+     cout<<"found at index"<<result;
     else
         cout << "Element not found!" << endl;
 
