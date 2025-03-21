@@ -19,8 +19,6 @@ int main() {
      {
        left=mid +1;
      }
-     
-     
    }
    
     
