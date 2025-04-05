@@ -19,7 +19,7 @@ class Alumni : public Student {
 public:
     void getInfo() {
         cout << "Name: " << name << endl;
-        cout << "Age: " << age << endl;
+        cout << "Age:" << age << endl;
         cout << "Roll No: " << rollNo << endl;
     }
 }; 
