@@ -17,7 +17,7 @@ public:
     // Destructor of Person class
     ~Person()
     {
-        cout << "Called Person Destructor..\n"; // Message when a Person object is destroyed
+        cout << "Called Person Destructor..\n"; //Message when a Person object is destroyed
     }
 };
 
