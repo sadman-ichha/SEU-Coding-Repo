@@ -11,7 +11,7 @@ public:
     // Constructor of Person class
     Person()
     {
-        cout << "Called Person Constructor..\n"; // Message when a Person object is created
+        cout << "Called Person Constructor...\n"; // Message when a Person object is created
     }
 
     // Destructor of Person class
