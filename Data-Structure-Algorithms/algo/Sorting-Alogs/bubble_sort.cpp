@@ -9,7 +9,7 @@ int main()
     for (int i = 0; i < length; i++) {
         cout << arr[i] << " ";
     }
-    // algorithm 
+    // bubble sort logics 
     for (int i = 0; i < length; i++){
         for (int j = 0; j < length-1; j++){
             if (arr[j] > arr[j + 1]){
