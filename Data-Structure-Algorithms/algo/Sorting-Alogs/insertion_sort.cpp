@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+
 int main() {
     int arr[5]={5,3,7,10,2};
     int arrLength = 5;
@@ -15,13 +16,9 @@ int main() {
          arr[hole]= arr[hole-1];
          hole--;
        }
-       arr[hole]=temp;
-
-       
-       
-       
+       arr[hole]=temp;  
     }
-    cout <<endl<< "Sorted array: ";
+    cout <<endl<< "Sorted array:";
     for (int i = 0; i < 5; i++) {
         cout << arr[i] << " ";
     }
