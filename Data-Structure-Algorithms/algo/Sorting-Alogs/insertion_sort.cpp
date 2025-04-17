@@ -18,10 +18,9 @@ int main() {
        }
        arr[hole]=temp;  
     }
-    cout <<endl<< "Sorted array:";
+    cout <<endl<< "Sorted array: ";
     for (int i = 0; i < 5; i++) {
         cout << arr[i] << " ";
     }
-
     return 0;
 }
