@@ -14,7 +14,7 @@ int main()
     for (int i = 0; i < arrLength; i += 1)
     {
         cout << orange[i];
-        // To ensure that a comma (",") is printed after each element except the last one one
+        // To ensure that a comma (",") is printed after each element except the last one
         if (i != 6)
         {
             cout << ",";
