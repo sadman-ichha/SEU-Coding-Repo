@@ -29,6 +29,15 @@ class Queue{
         return arr[front++];
     }
 
+    void display(){
+     for (int i = 0; i < 5; i++)
+     {
+       cout<<i<<endl;
+     }
+     
+        
+    }
+
 
 };
 
@@ -37,7 +46,7 @@ int main(){
     queue.enqueue(12);
     queue.enqueue(11);
     queue.dequeue();
-    queue.dequeue();
+   // queue.dequeue();
 
 
     return 0;
