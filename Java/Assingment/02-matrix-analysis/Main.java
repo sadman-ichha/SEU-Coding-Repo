@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class MatrixAnalysis{
+public class Main{
     public static void main(String[] agrs){
         System.out.println("input 4*4 matrix: ");
         Scanner scanner = new Scanner(System.in);
