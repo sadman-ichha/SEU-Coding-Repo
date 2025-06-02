@@ -15,7 +15,7 @@ public class Main{
         }
 
        // Print the matrix
-       System.out.println("Matrix you entered:");
+       System.out.println("Matrix you entered: ");
        for (int i = 0; i < row; i++) {
            for (int j = 0; j < column; j++) {
                System.out.print(arr[i][j] + " "); 
